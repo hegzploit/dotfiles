@@ -69,6 +69,21 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["gruvbox.nvim"] = {
+    loaded = true,
+    path = "/home/hegz/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",
+    url = "https://github.com/ellisonleao/gruvbox.nvim"
+  },
+  ["nvim-colorizer.lua"] = {
+    loaded = true,
+    path = "/home/hegz/.local/share/nvim/site/pack/packer/start/nvim-colorizer.lua",
+    url = "https://github.com/norcalli/nvim-colorizer.lua"
+  },
+  ["nvim-transparent"] = {
+    loaded = true,
+    path = "/home/hegz/.local/share/nvim/site/pack/packer/start/nvim-transparent",
+    url = "https://github.com/xiyaowong/nvim-transparent"
+  },
   ["nvim-tree.lua"] = {
     loaded = true,
     path = "/home/hegz/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
@@ -83,6 +98,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/hegz/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
+  },
+  ["tokyonight.nvim"] = {
+    loaded = true,
+    path = "/home/hegz/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
+    url = "https://github.com/folke/tokyonight.nvim"
   },
   ["vim-moonfly-colors"] = {
     loaded = true,
